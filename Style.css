@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.folder-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.folder {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 220px;
+        padding: 20px;
+        text-align: center;
+        transition: box-shadow 0.3s ease;
+        text-decoration: none;
+        color: #333;
+}
+      .folder:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      .folder img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 15px;
+      }
+      .folder-name {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
